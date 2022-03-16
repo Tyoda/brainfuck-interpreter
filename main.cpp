@@ -1,8 +1,11 @@
 #include <iostream>
 #include "brain.hpp"
-#include <iostream>
-//input must be continous string of characters
+//input must be continous string of characters, enclosed in "" because windows or whatever
 //characters other than +-><[]., will be ignored
+//values are 0..255
+//0-1 wraps around to 255
+//255+1 wraps around to 0
+
 
 int main(int argc, char* argv[]){
 	if(argc == 1){
