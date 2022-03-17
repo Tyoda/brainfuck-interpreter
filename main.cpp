@@ -1,10 +1,8 @@
 #include <iostream>
 #include "brain.hpp"
-//input must be continous string of characters, enclosed in "" because windows or whatever
+//input must be continous string of characters, enclosed in "" because reasons
 //characters other than +-><[]., will be ignored
-//values are 0..255
-//0-1 wraps around to 255
-//255+1 wraps around to 0
+//values are 0..255, wraps around
 
 
 int main(int argc, char* argv[]){
@@ -57,5 +55,5 @@ int main(int argc, char* argv[]){
 		}
 		++boop;
 	}
-	std::cout << std::endl << "all done" << std::endl;
+	std::cout << std::endl;
 }
