@@ -1,1 +1,1 @@
-g++ -o brain.exe brain.cpp brainnode.cpp main.cpp
+g++ -o brain.exe .\src\brain.cpp .\src\brainnode.cpp .\src\main.cpp
