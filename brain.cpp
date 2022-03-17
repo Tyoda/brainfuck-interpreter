@@ -1,6 +1,8 @@
 #include <sstream>
 #include "brain.hpp"
 
+#simpler wrapper for the brainnode thingi
+
 Brain::Brain(){
 	cursor = new BrainNode();
 }
